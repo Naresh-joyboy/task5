@@ -1,0 +1,64 @@
+
+A.  For the given json iterate over all for loops (for for in for of foreach)
+
+
+
+var numbers = {[ 10, 20],[30,40],[50,60]}
+for (var i=0; i < numbers.length; i++) {
+   console.log(numbers[i])
+}
+
+
+
+var person ={
+  name1 : "saran",
+  name2 : "sankar",
+  age : 23 
+  };
+  for(let x in person){
+    console.log(x +":"+person[x])
+    }
+
+
+var ver = [
+  {
+    "podu":"name"
+  },
+  {
+    "apply":"mmeme"
+  }]
+let poj ="";
+for(let x of ver){
+  poj += x;
+  }
+ console.log(poj)
+
+
+
+
+var fff =[
+  {"name":"xxx"},
+  {"gender":"male"},
+  {"age":"23"}
+  ]
+  fff.forEach((n)=>{
+    console.log(n);
+    });
+
+
+
+
+B. create your own resume in json format
+
+
+
+
+
+var resume =[{"name":"naresh"},
+{"age":"23"},{"gender":"male"},{"email":"xxxxx@gmail.com"},{"number":"9834445677"},
+{"SSLC":"81.4%"},{"HSC":"70.6%"},
+{"degree":"BE.mechanical"},{"CGPA":"75.6%"},{"IT background":"fullstack developer"},
+{"hobbies";"basketball,chess"},{"extracourses":"chatgtp,java,ui/ux"},{"extra":"msoffice,photoshopflash"}
+  ]resume.forEach((h) =.{
+    console.log(h);
+    });
